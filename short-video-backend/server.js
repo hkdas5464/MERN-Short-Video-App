@@ -5,7 +5,7 @@ import Videos from './dbModel.js';
 const app = express()
 const port = process.env.PORT || 9000
 
-const url="mongodb+srv://admin:12345@cluster0.uqtmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const url="mongodb+srv://admin:*****@cluster0.uqtmj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 Mongoose.connect(
     url,
